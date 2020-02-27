@@ -1,0 +1,9 @@
+
+
+ The Circle class inherits the Cylinder class. When creating an object of Circle, the constructor of the Cylinder(superclass) is called
+
+ inside the constructor of Circle. However, the constructor of Cylinder takes two arguments while the constructor of Circle take only one
+
+ argument. Therefore, it generates an error when the constructor of Cylinder is called inside the Circle constructor with the only available
+
+ one argument.
