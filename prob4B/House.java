@@ -1,4 +1,4 @@
-package prob4;
+package prob4B;
 
 public class House extends Shelter {
 	double lotSize;

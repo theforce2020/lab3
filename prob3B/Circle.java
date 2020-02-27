@@ -1,16 +1,20 @@
-package prob3Composition;
+package prob3B;
 
 
 public class Circle {
 	
 	private double radius;
-	public Circle(double radi) {
-		radius=radi;
-	}
+
+
 	public double getRadius() {
-		return radius;
+		return this.radius;
 	}
+	
+	public Circle(double ra){
+		this.radius= ra;
+	}
+	
 	public double computeArea() {
-		return radius *radius * Math.PI;
+		return Math.PI * Math.sqrt(this.radius);
 	}
 }

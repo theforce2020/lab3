@@ -1,4 +1,4 @@
-package prob4;
+package prob4B;
 
 public class Trailer extends Shelter {
 

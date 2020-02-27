@@ -1,30 +1,28 @@
-package prob3Composition;
+package prob3B;
+
 
 public class Cylinder  {
-	private double height;
-	private double radius;
 	private Circle circle;
-	public Cylinder(double hei, double radi) {
-		height = hei;
-		radius = radi;
-		circle=new Circle(radius);
-	}
-
+	private double height;
+	//private double radius;
+	
 	
 	public double getHeight() {
-		return height;
-	}
-
-	public double getRadius() {
-		return radius;
+		return this.height;
 	}
 	
-	public Circle getCircle(){
-		return circle;
+	public Cylinder(double ra,double h) {
+		//this.radius=ra;
+		this.height= h;
+		this.circle = new Circle(ra);
 	}
+	
 	public double computeVolume() {
-		return Math.PI * radius * radius * height;
+	
+		return this.circle.computeArea()* this.height; 
 	}
+	
+	
 
 }
 

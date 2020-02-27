@@ -1,13 +1,24 @@
-package prob3inherit;
+package prob3A;
 
 public class Circle extends Cylinder {
 	
-	public Circle(double radius){
-		super(radius, 0);//super(radius).... error : more explained on readme.txt
+	//super(radius).... error : more explained on readme.txt
+	
+	private double radius;
+
+
+	public double getRadius() {
+		return this.radius;
+	}
+	
+	Circle(double ra){
+		super(ra);
+		this.radius= ra;
+		
 	}
 	
 	public double computeArea() {
-		return getRadius() * getRadius() * Math.PI;
+		return Math.PI * Math.sqrt(this.radius);
 	}
 }
 	

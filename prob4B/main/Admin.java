@@ -1,6 +1,6 @@
-package prob4.main;
+package prob4B.main;
 
-import prob4.Shelter;
+import prob4B.Shelter;
 
 public class Admin {
 	public static double computeTotalRent(Shelter[] properties) {

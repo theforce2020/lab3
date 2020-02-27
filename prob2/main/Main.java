@@ -1,5 +1,4 @@
 package prob2.main;
-import java.util.*;
 
 import prob2.Apartment;
 import prob2.Building;

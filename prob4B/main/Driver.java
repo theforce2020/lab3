@@ -1,9 +1,9 @@
-package prob4.main;
+package prob4B.main;
 
-import prob4.Condo;
-import prob4.House;
-import prob4.Shelter;
-import prob4.Trailer;
+import prob4B.Condo;
+import prob4B.House;
+import prob4B.Shelter;
+import prob4B.Trailer;
 
 public class Driver {
 
